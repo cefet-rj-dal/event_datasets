@@ -1,2 +1,2 @@
 # event_datasets
-Repository for organizing datasets used for developing and testing methods for detecting events in time series.
+Repository for organizing datasets used for developing and testing methods for time series events detection. Each dataset will be organized in a separate directory with documentation about its origin, data files (when available) and R Script for its load. The repository will preferably consist of datasets with labels to assist in evaluating the performance of the methods applied in the experiments.
