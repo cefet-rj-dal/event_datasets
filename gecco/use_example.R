@@ -10,12 +10,12 @@ library(mFilter)
 
 source("carrega.R")
 data <- carrega()
-#Select subset one day with syntethic events
+#Select subset one day with synthetic events
 reference <- data$EVENT[16500:18000]
 test <- data$pH[16500:18000]
 
 
-#Plotting original serie
+#Plotting original series
 plot(ts(test),type="l",
      ylab="value",
      xlab="time")
