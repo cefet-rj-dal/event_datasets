@@ -5,8 +5,6 @@ carrega <- function() {
   #Dataset origin
   series_path = c("A1", "A2", "A3", "A4")
   
-  #Event labels
-  
   #Series without labels or time column
   #Dataset organized with series, divided into a list
   dataset <- list()
@@ -101,6 +99,11 @@ carrega <- function() {
 
 
 referencia <- function() {
+  #Dataset origin
+  series_path = c("A1", "A2", "A3", "A4")
+  #Event labels
+  
+  
   reference <- list()
   return(reference)
 }
