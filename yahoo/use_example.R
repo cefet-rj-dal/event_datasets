@@ -12,6 +12,7 @@ source("carrega.R")
 data <- carrega()
 #Select subset one series from group A1 (Real data from internet traffic)
 reference <- referencia()
+
 test <- data$a1$real_1.csv
 
 
