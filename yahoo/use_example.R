@@ -20,10 +20,8 @@ plot(ts(test), type = "l",
      ylab="value",
      xlab = "time")
 
-
 #Autocorrelation function
 plot(TSA::acf(ts(test), plot=FALSE, na.action = na.pass), main="")
-
 
 
 #Stationarity analysis
