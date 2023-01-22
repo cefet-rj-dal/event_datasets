@@ -92,12 +92,12 @@ carrega <- function() {
 
 
 referencia <- function() {
+  #browser()
   #Dataset origin
   series_path = c("A1", "A2", "A3", "A4")
   #Event label references
   reference <- list()
   
-
   # A1 - Reference ----------------------------------------------------------
   files <- list.files(path = paste("reference", series_path[1], sep = "\\"), pattern = "*.Rds")
   
@@ -118,7 +118,7 @@ referencia <- function() {
 
   
   # A2 - Reference ----------------------------------------------------------
-  files <- list.files(path = paste("reference", series_path[1], sep = "\\"), pattern = "*.Rds")
+  files <- list.files(path = paste("reference", series_path[2], sep = "\\"), pattern = "*.Rds")
   
   a2 <- list()
   i = 1
