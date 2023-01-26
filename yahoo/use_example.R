@@ -11,24 +11,22 @@ library(mFilter)
 source("carrega.R")
 data <- carrega()
 #Select subset one series from group A1 (Real data from internet traffic)
-reference <- referencia()
-
-test <- data$a1$real_1.csv
+test <- data$A1$real_1.csv
 
 
 #Plotting original series
-plot(ts(test), type = "l",
+plot(ts(test$series), type = "l",
      ylab="value",
      xlab = "time")
 
 #Autocorrelation function
-plot(TSA::acf(ts(test), plot=FALSE, na.action = na.pass), main="")
+plot(TSA::acf(ts(test$series), plot=FALSE, na.action = na.pass), main="")
 
 
 #Stationarity analysis
 #Unit root identification in the series
 #ADF test
-adf_res <- ur.df(ts(test),
+adf_res <- ur.df(ts(test$series),
                  type = "trend",
                  lags = 30,
                  selectlags = "AIC"
