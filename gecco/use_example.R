@@ -10,9 +10,10 @@ library(mFilter)
 
 source("carrega.R")
 data <- carrega()
-#Select subset one day with synthetic events
-reference <- data$EVENT[16500:18000]
-test <- data$pH[16500:18000]
+
+#Select subset one day of pH series with synthetic events
+test <- subset(data$gecco, select = c(ph))
+test <- test$ph[16500:18000]
 
 
 #Plotting original series
