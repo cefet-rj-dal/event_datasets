@@ -1,28 +1,20 @@
 library(EventDetectR)
 library(dplyr)
 
+
 carrega <- function() {
   #Dataset origin
   gecco <- geccoIC2018Train
-  row.names(gecco) <- gecco$Time
-  #Event labels
-  reference <- subset(gecco, select=c(EVENT))
-  #Series without labels or time column
-  data <- subset(gecco, select = -c(EVENT, Time))
-
-  #Dataset organized with series, divided into a list
-  dataset <- list()
-  i = 1
   
-  for (i in 1:length(data)) {
-    serie <- data %>% select(all_of(i))
-    dataset <- c(dataset, serie)
-  }
+  #Series without time column
+  data <- subset(gecco, select = -c(Time))
+  #Transform boolean to integer to standardize column events with other datasets
+  data$EVENT <- as.integer(data$EVENT)
   
-  #Adding the labels to the end of the dataset
-  dataset <- c(dataset, reference)
+  #Dataset organized with series into a list
+  dataset <- list(data)
+  names(dataset) <- "gecco"
+  names(dataset$gecco) <- tolower(names(dataset$gecco))
   
   return(dataset)
 }
-
-dataset <- carrega()
