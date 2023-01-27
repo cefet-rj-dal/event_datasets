@@ -21,7 +21,7 @@ carrega <- function() {
     #Iteration in the series of each group
     i = 1
     for (i in 1:length(files_sr)) {
-      series_file = paste(series_path[k], files_sr[i], sep = "\\")
+      series_file = paste(series_path[k], files_sr[i], sep = "/")
       
       
       series <- read_csv(series_file)
