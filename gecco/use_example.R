@@ -25,6 +25,10 @@ plot(ts(test),type="l",
 plot(TSA::acf(ts(test), plot=FALSE, na.action = na.pass), main="")
 
 
+#Distribution analysis
+hist(test)
+boxplot(test)
+
 
 #Stationarity analysis
 #Unit root identification in the series
