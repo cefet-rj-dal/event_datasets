@@ -1,9 +1,8 @@
 # event_datasets
 
 ## Description and Content
-Repository for organizing datasets used for developing and testing methods for time series events detection. Each dataset will be organized in a separate directory with documentation about its origin, data files (when available) and R Script for its load. The repository will preferably consist of datasets with labels to assist in evaluating the performance of the methods applied in the experiments.
 
-To use the series from the files, the repository must be cloned and the usage examples reproduced from the `original_datasets` directory. Although it is possible to use it through files, it is recommended to follow the guidance in the next section for use through the R package.
+Repository for organizing datasets used for developing and testing methods for time series events detection. The repository will preferably consist of datasets with labels to assist in evaluating the performance of the methods applied in the experiments. Although it is possible to use it through files, it is recommended to follow the guidance in the next section for use through this R package.
 
 
 | Dataset | Labels  | Number of series | Content | Files and Code / Documentation | Origin URL |
@@ -21,7 +20,7 @@ To use the series from the files, the repository must be cloned and the usage ex
 
 ## Usage Example
 
-Another way to use series from this data repository is through the R package `dalevents`. The following usage example describes installing the package and loading a series. This is the easiest and most recommended way to use the series contained in this repository.
+The following usage example describes installing the package `dalevents` and loading a series. This is the easiest and most recommended way to use the series contained in this repository.
 
 ```
 #Install package
@@ -44,7 +43,6 @@ plot(series$series, type = "l")
 
 ### Series available in the package
 
-
 List of series already available for loading through the package. For each series the `data(serie_name)` function must be used, according to the usage example above. This will create a linked list with the same name as the dataset. When browsing through the list the last level will represent each series ready for use with the desired function.
 
 
@@ -65,3 +63,8 @@ List of series already available for loading through the package. For each serie
 | mortality_cnes | `data(mortality_cnes)` |
 | fi_br | `data(fi_br)` |
 | eia_oil_prices | `data(eia_oil_prices)` |
+
+### Complete original files and ETL process
+
+
+Another way to use series from this data repository is through files available in https://github.com/cefet-rj-dal/event_datasets_etl. Each dataset is organized in a separate directory with documentation about its origin, data files (when available) and R Script for its load. To use the series from the files, the repository must be cloned and the usage examples reproduced from the `original_datasets` directory.
