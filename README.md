@@ -7,15 +7,15 @@ Repository for organizing datasets used for developing and testing methods for t
 
 | Dataset | Labels  | Number of series | Content | Files and Code / Documentation | Origin URL |
 | ------- | ------- | ---------------- | ------- | ------------------- | ------ |
-| Gecco Challenge | Yes | 9 | Data collection for water quality monitoring |Available / Available | [Gecco Challenge 2018](https://www.spotseven.de/gecco/gecco-challenge) |
-| Yahoo Labs | Yes | 367 | Data collection of network traffic, internet and synthetic data | Available / Available | [Yahoo Research](https://yahooresearch.tumblr.com/post/114590420346) |
-| Numenta | Yes | 58 | Cloud services and synthetic data | Pending / Pending | [Numenta](https://www.numenta.com) |
-| RARE | Yes | 7062 | Memory consumption in cloud services | Pending / Pending | |
-| UCR Archive | Yes | 250 | Synthetic data | Pending / Pending | [UCR Archive](https://paperswithcode.com/dataset/ucr-anomaly-archive) |
-| UCI 3W | Yes | 649 | Oil well drilling | Available / Pending | [UCI](https://archive.ics.uci.edu/ml/datasets/3W+dataset) |
-| Mortality CNES | Yes | 1 | Child mortality dataset. Data for assessing infant mortality, an important health indicator. | Available / Pending | |
-| Finance Indexes | Yes | 10 | Finance: Securities Price Indexes (Brazil) | Available / Pending | [b3](https://www.b3.com.br/pt_br/market-data-e-indices/) and [BR Investing](https://br.investing.com/indices/) |
-| EIA Oil Prices | No | 7 | Finance: Prices of crude oil and petroleum products | Available / Pending | [EIA](https://www.eia.gov/petroleum/data.php) |
+| Gecco Challenge | Yes | 9 | Data collection for water quality monitoring |Done / Done | [Gecco Challenge 2018](https://www.spotseven.de/gecco/gecco-challenge) |
+| Yahoo Labs | Yes | 367 | Data collection of network traffic, internet and synthetic data | Done / Done | [Yahoo Research](https://yahooresearch.tumblr.com/post/114590420346) |
+| Numenta | Yes | 58 | Cloud services and synthetic data | In Progress / Done | [Numenta](https://www.numenta.com) |
+| RARE | Yes | 7062 | Memory consumption in cloud services | In Progress / Pending | |
+| UCR Archive | Yes | 250 | Synthetic data | To Do / To Do | [UCR Archive](https://paperswithcode.com/dataset/ucr-anomaly-archive) |
+| UCI 3W | Yes | 649 | Oil well drilling | Done / To Do | [UCI](https://archive.ics.uci.edu/ml/datasets/3W+dataset) |
+| Mortality CNES | Yes | 1 | Child mortality dataset. Data for assessing infant mortality, an important health indicator. | Done / In Progress | |
+| Finance Indexes | Yes | 10 | Finance: Securities Price Indexes (Brazil) | Done / In Progress | [b3](https://www.b3.com.br/pt_br/market-data-e-indices/) and [BR Investing](https://br.investing.com/indices/) |
+| EIA Oil Prices | No | 7 | Finance: Prices of crude oil and petroleum products | Done / To Do | [EIA](https://www.eia.gov/petroleum/data.php) |
 
 
 ## Usage Example
