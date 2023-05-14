@@ -39,3 +39,6 @@ data(eia_oil_prices)
 
 data(fi_br)
 ?fi_br
+
+data(numenta_grp_all)
+?numenta_grp_all

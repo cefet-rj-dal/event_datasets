@@ -342,3 +342,31 @@
 #' data(fi_br)
 #' serie <- fi_br[[1]]
 "fi_br"
+
+
+#' @name numenta_grp_all
+#' @title Numenta Benchmark
+#' @description
+#' Data collection with real-world time-series.
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_grp_all)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_grp_all)
+#' numenta_grp <- numenta_grp_all[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_grp_all"
