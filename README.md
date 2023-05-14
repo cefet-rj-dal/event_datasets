@@ -53,6 +53,7 @@ List of series already available for loading through the package. For each serie
 | yahoo_a2 | `data(yahoo_a2)` |
 | yahoo_a3 | `data(yahoo_a3)` |
 | yahoo_a4 | `data(yahoo_a4)` |
+| numenta_grp_all | `data(numenta_grp_all)` |
 | oil_3w_Type_0 | `data(oil_3w_Type_0)` |
 | oil_3w_Type_1 | `data(oil_3w_Type_1)` |
 | oil_3w_Type_2 | `data(oil_3w_Type_2)` |
