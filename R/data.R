@@ -370,3 +370,206 @@
 #' numenta_grp <- numenta_grp_all[[1]]
 #' serie <- numenta_grp[[1]]
 "numenta_grp_all"
+
+
+#' @name numenta_artificialNoAnomaly
+#' @title Numenta Benchmark artificialNoAnomaly
+#' @description
+#' Data collection with real-world time-series.
+#'     Artificial data without anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_artificialNoAnomaly)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_artificialNoAnomaly)
+#' numenta_grp <- numenta_artificialNoAnomaly[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_artificialNoAnomaly"
+
+
+#' @name numenta_artificialWithAnomaly
+#' @title Numenta Benchmark artificialWithAnomaly
+#' @description
+#' Data collection with real-world time-series.
+#'     Artificial data with anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_artificialWithAnomaly)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_artificialWithAnomaly)
+#' numenta_grp <- numenta_artificialWithAnomaly[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_artificialWithAnomaly"
+
+
+#' @name numenta_realAdExchange
+#' @title Numenta Benchmark realAdExchange
+#' @description
+#' Data collection with real-world time-series.
+#'     Real data with anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_realAdExchange)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_realAdExchange)
+#' numenta_grp <- numenta_realAdExchange[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_realAdExchange"
+
+
+#' @name numenta_realAWSCloudwatch
+#' @title Numenta Benchmark realAdExchange
+#' @description
+#' Data collection with real-world time-series.
+#'     Real data from AWS Cloud with anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_realAWSCloudwatch)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_realAWSCloudwatch)
+#' numenta_grp <- numenta_realAWSCloudwatch[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_realAWSCloudwatch"
+
+
+#' @name numenta_realKnownCause
+#' @title Numenta Benchmark realKnownCause
+#' @description
+#' Data collection with real-world time-series.
+#'     Real data with anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_realKnownCause)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_realKnownCause)
+#' numenta_grp <- numenta_realKnownCause[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_realKnownCause"
+
+
+#' @name numenta_realTraffic
+#' @title Numenta Benchmark realTraffic
+#' @description
+#' Data collection with real-world time-series.
+#'     Real data from online data traffic with anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_realTraffic)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_realTraffic)
+#' numenta_grp <- numenta_realTraffic[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_realTraffic"
+
+
+#' @name numenta_realTweets
+#' @title Numenta Benchmark realTraffic
+#' @description
+#' Data collection with real-world time-series.
+#'     Real data from Tweets with anomalies
+#'     As part of the Numenta Anomaly Benchmark (NAB), this dataset contains
+#'     time series with real and synthetic data. The real data comes from network
+#'     monitoring and cloud computing. On the other hand, synthetic data simulate
+#'     series with or without anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(numenta_realTweets)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references Numenta
+#' @source \href{https://github.com/numenta/NAB/tree/master/data}{Numenta Benchmark Dataset}
+#'
+#' @examples
+#' data(numenta_realTweets)
+#' numenta_grp <- numenta_realTweets[[1]]
+#' serie <- numenta_grp[[1]]
+"numenta_realTweets"
