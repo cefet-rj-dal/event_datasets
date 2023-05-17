@@ -42,7 +42,6 @@
 #' serie <- yahoo_a2[[1]]
 "yahoo_a2"
 
-
 #' @name yahoo_a3
 #' @title A3 Yahoo Benchmark Dataset for Time Series Anomaly Detection
 #' @description A3 Group --> Real data from Yahoo services internet traffic.
@@ -64,7 +63,6 @@
 #' data(yahoo_a3)
 #' serie <- yahoo_a3[[1]]
 "yahoo_a3"
-
 
 #' @name yahoo_a4
 #' @title A4 Yahoo Benchmark Dataset for Time Series Anomaly Detection
@@ -115,7 +113,6 @@
 #' serie <- oil_3w_Type_1[[1]]
 "oil_3w_Type_1"
 
-
 #' @name oil_3w_Type_2
 #' @title Oil wells dataset - Type 2
 #' @description
@@ -141,7 +138,6 @@
 #' data(oil_3w_Type_2)
 #' serie <- oil_3w_Type_2[[1]]
 "oil_3w_Type_2"
-
 
 #' @name oil_3w_Type_5
 #' @title Oil wells dataset - Type 5
@@ -169,7 +165,6 @@
 #' serie <- oil_3w_Type_5[[1]]
 "oil_3w_Type_5"
 
-
 #' @name oil_3w_Type_6
 #' @title Oil wells dataset - Type 6
 #' @description
@@ -196,7 +191,6 @@
 #' serie <- oil_3w_Type_6[[1]]
 "oil_3w_Type_6"
 
-
 #' @name oil_3w_Type_7
 #' @title Oil wells dataset - Type 7
 #' @description
@@ -222,7 +216,6 @@
 #' data(oil_3w_Type_7)
 #' serie <- oil_3w_Type_7[[1]]
 "oil_3w_Type_7"
-
 
 #' @name oil_3w_Type_8
 #' @title Oil wells dataset - Type 8
@@ -292,7 +285,6 @@
 #' data(mortality_cnes)
 #' serie <- mortality_cnes[[1]]
 "mortality_cnes"
-
 
 
 #' @name eia_oil_prices
@@ -372,7 +364,6 @@
 #' serie <- numenta_grp[[1]]
 "numenta_artificialNoAnomaly"
 
-
 #' @name numenta_artificialWithAnomaly
 #' @title Numenta Benchmark artificialWithAnomaly
 #' @description
@@ -400,7 +391,6 @@
 #' numenta_grp <- numenta_artificialWithAnomaly[[1]]
 #' serie <- numenta_grp[[1]]
 "numenta_artificialWithAnomaly"
-
 
 #' @name numenta_realAdExchange
 #' @title Numenta Benchmark realAdExchange
@@ -430,7 +420,6 @@
 #' serie <- numenta_grp[[1]]
 "numenta_realAdExchange"
 
-
 #' @name numenta_realAWSCloudwatch
 #' @title Numenta Benchmark realAdExchange
 #' @description
@@ -458,7 +447,6 @@
 #' numenta_grp <- numenta_realAWSCloudwatch[[1]]
 #' serie <- numenta_grp[[1]]
 "numenta_realAWSCloudwatch"
-
 
 #' @name numenta_realKnownCause
 #' @title Numenta Benchmark realKnownCause
@@ -488,7 +476,6 @@
 #' serie <- numenta_grp[[1]]
 "numenta_realKnownCause"
 
-
 #' @name numenta_realTraffic
 #' @title Numenta Benchmark realTraffic
 #' @description
@@ -516,7 +503,6 @@
 #' numenta_grp <- numenta_realTraffic[[1]]
 #' serie <- numenta_grp[[1]]
 "numenta_realTraffic"
-
 
 #' @name numenta_realTweets
 #' @title Numenta Benchmark realTraffic
