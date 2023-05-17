@@ -13,7 +13,7 @@ Repository for organizing datasets used for developing and testing methods for t
 | RARE | Yes | 7062 | Memory consumption in cloud services | In Progress / *To Do* | |
 | UCR Archive | Yes | 250 | Synthetic data | *To Do / To Do* | [UCR Archive](https://paperswithcode.com/dataset/ucr-anomaly-archive) |
 | UCI 3W | Yes | 649 | Oil well drilling | **Done** / *To Do* | [UCI](https://archive.ics.uci.edu/ml/datasets/3W+dataset) |
-| Mortality CNES | Yes | 1 | Child mortality dataset. Data for assessing infant mortality, an important health indicator. | **Done** / In Progress | |
+| Mortality CNES | No | 1 | Child mortality dataset. Data for assessing infant mortality, an important health indicator. | **Done** / In Progress | |
 | Finance Indexes | Yes | 10 | Finance: Securities Price Indexes (Brazil) | **Done** / In Progress | [b3](https://www.b3.com.br/pt_br/market-data-e-indices/) and [BR Investing](https://br.investing.com/indices/) |
 | EIA Oil Prices | No | 7 | Finance: Prices of crude oil and petroleum products | **Done** / *To Do* | [EIA](https://www.eia.gov/petroleum/data.php) |
 
