@@ -10,7 +10,7 @@ Repository for organizing datasets used for developing and testing methods for t
 | Gecco Challenge | Yes | 9 | Data collection for water quality monitoring |**Done / Done** | [Gecco Challenge 2018](https://www.spotseven.de/gecco/gecco-challenge) |
 | Yahoo Labs | Yes | 367 | Data collection of network traffic, internet and synthetic data | **Done / Done** | [Yahoo Research](https://yahooresearch.tumblr.com/post/114590420346) |
 | Numenta | Yes | 58 | Cloud services and synthetic data | **Done** / **Done** | [Numenta](https://www.numenta.com) |
-| RARE | Yes | 7062 | Memory consumption in cloud services | In Progress / *To Do* | |
+| RARE | Yes | 7062 | Memory consumption in cloud services | **Done** / **Done** |[RARE](https://doi.org/10.1145/3416505.3423560) |
 | UCR Archive | Yes | 250 | Synthetic data | *To Do / To Do* | [UCR Archive](https://paperswithcode.com/dataset/ucr-anomaly-archive) |
 | UCI 3W | Yes | 649 | Oil well drilling | **Done** / *To Do* | [UCI](https://archive.ics.uci.edu/ml/datasets/3W+dataset) |
 | Mortality CNES | No | 1 | Child mortality dataset. Data for assessing infant mortality, an important health indicator. | **Done** / In Progress | |
@@ -60,6 +60,7 @@ List of series already available for loading through the package. For each serie
 | numenta_realKnownCause | `data(numenta_realKnownCause)` |
 | numenta_realTraffic | `data(numenta_realTraffic)` |
 | numenta_realTweets | `data(numenta_realTweets)` |
+| rare | `data(rare)` |
 | oil_3w_Type_0 | `data(oil_3w_Type_0)` |
 | oil_3w_Type_1 | `data(oil_3w_Type_1)` |
 | oil_3w_Type_2 | `data(oil_3w_Type_2)` |

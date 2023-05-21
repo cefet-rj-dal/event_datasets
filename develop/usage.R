@@ -34,3 +34,7 @@ data(fi_br)
 
 data(numenta_realTweets)
 ?numenta_realTweets
+
+data(rare)
+serie <- rare$kafka_network_processor_idlepercent_value_0
+?rare

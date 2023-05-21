@@ -531,3 +531,30 @@
 #' numenta_grp <- numenta_realTweets[[1]]
 #' serie <- numenta_grp[[1]]
 "numenta_realTweets"
+
+
+#' @name rare
+#' @title RARE: A Labeled Dataset for Cloud-Native Memory Anomalies
+#' @description
+#' Data with over 900 metrics generated injecting artificial anomalies
+#'     in real streaming services. Data is organized into over 7000 variables.
+#'     For a detailed list of variables see:
+#'     \href{https://github.com/cefet-rj-dal/event_datasets_etl/blob/main/original_datasets/rare/data/rare_attributes.csv}{RARE Attributes}.
+#'     Real data from stream services and artificial labeled anomalies.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(rare)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references RARE
+#' @source \href{https://doi.org/10.1145/3416505.3423560}{RARE: A Labeled Dataset for Cloud-Native Memory Anomalies}
+#'
+#' @examples
+#' data(rare)
+#' serie <- rare$kafka_network_processor_idlepercent_value_0
+"rare"
