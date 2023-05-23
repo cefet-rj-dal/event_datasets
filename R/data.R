@@ -558,3 +558,26 @@
 #' data(rare)
 #' serie <- rare$kafka_network_processor_idlepercent_value_0
 "rare"
+
+#' @name ucr
+#' @title UCR Anomaly Archive
+#' @description
+#' Data with 250 series with real world data and synthetic and real anomalies.
+#'     Real data from human medicine, biology, meteorology and industry.
+#'     See \href{https://github.com/cefet-rj-dal/event_datasets}{cefet-rj-dal/event_datasets}
+#'     for detailed guidance on using this package and the other datasets available in it.
+#'     Labels available? Yes
+#'
+#'
+#' @docType data
+#' @usage data(ucr)
+#' @format A list of time series.
+#' @keywords datasets
+#'
+#'#'#' @references UCR Anomaly Archive
+#' @source \href{https://paperswithcode.com/dataset/ucr-anomaly-archive}{UCR Anomaly Archive}
+#'
+#' @examples
+#' data(ucr)
+#' serie <- ucr[[1]]
+"ucr"
