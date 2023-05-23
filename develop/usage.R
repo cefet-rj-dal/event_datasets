@@ -38,3 +38,8 @@ data(numenta_realTweets)
 data(rare)
 serie <- rare$kafka_network_processor_idlepercent_value_0
 ?rare
+
+data(ucr)
+series <- ucr[[134]]
+plot(ts(series), type = "l")
+?ucr
