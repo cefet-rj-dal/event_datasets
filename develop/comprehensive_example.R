@@ -83,3 +83,32 @@ legend(x = "topleft",
        lty = 2, lwd = 1,
        bty = "n",
        col="red")
+
+
+
+
+#Filter by limit
+plim = 0.5
+prob <- result_81_fbiad_yh_a1$real_1$prob
+prob_lim <- subset(prob, pe > plim)
+
+det_prob <- result_81_fbiad_yh_a1$real_1$detection
+det_prob$event <- 0
+det_prob$event[which(det_prob$idx %in% prob_lim$idx)] <- 1
+
+#Sum of events
+sum(result_81_fbiad_yh_a1$real_1$detection$event, na.rm = TRUE)
+sum(det_prob$event)
+
+
+#Evaluate limit query detection
+print(evaluate(result_81_fbiad_yh_a1$real_1$detector,
+               det_prob$event,
+               yahoo_a1$real_1$event)$confMatrix)
+
+# plotting limit query detection
+grf_lim <- har_plot(result_81_fbiad_yh_a1$real_1$detector,
+                    yahoo_a1$real_1$series,
+                    det_prob,
+                    yahoo_a1$real_1$event)
+plot(grf_lim)
