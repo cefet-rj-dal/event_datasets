@@ -8,7 +8,6 @@ Repository for organizing datasets used for developing and testing methods for t
 | Dataset | Labels  | Number of series | Content | Files and Code / Documentation | Origin URL |
 | ------- | ------- | ---------------- | ------- | ------------------- | ------ |
 | Gecco Challenge | Yes | 9 | Data collection for water quality monitoring |**Done / Done** | [Gecco Challenge 2018](https://www.spotseven.de/gecco/gecco-challenge) |
-| Yahoo Labs | Yes | 367 | Data collection of network traffic, internet and synthetic data | **Done / Done** | [Yahoo Research](https://yahooresearch.tumblr.com/post/114590420346) |
 | Numenta | Yes | 58 | Cloud services and synthetic data | **Done** / **Done** | [Numenta](https://www.numenta.com) |
 | RARE | Yes | 7062 | Memory consumption in cloud services | **Done** / In Progress |[RARE](https://doi.org/10.1145/3416505.3423560) |
 | UCR Archive | Yes | 250 | Real data from human medicine, biology, meteorology and industry | **Done** / *To Do* | [UCR Archive](https://paperswithcode.com/dataset/ucr-anomaly-archive) |
@@ -30,15 +29,12 @@ devtools::install_github("cefet-rj-dal/event_datasets", force=TRUE)
 library(dalevents)
 
 #Load a series
-data(yahoo_a1)
-series <- yahoo_a1$real_1
+data(eia_oil_prices)
+series <- eia_oil_prices$Crude_Oil$EER_EPMRU_PF4_Y35NY_DPG
 
 #Use the loaded series
 summary(series)
-plot(series$series, type = "l")
-
-#Get information about a series
-?yahoo_a1
+plot(series, type = "l")
 ```
 
 ### Series available in the package
@@ -49,10 +45,6 @@ List of series already available for loading through the package. For each serie
 | Dataset Identifier | Loading |
 | ---------------- | ---------------- |
 | gecco | `data(gecco)` |
-| yahoo_a1 | `data(yahoo_a1)` |
-| yahoo_a2 | `data(yahoo_a2)` |
-| yahoo_a3 | `data(yahoo_a3)` |
-| yahoo_a4 | `data(yahoo_a4)` |
 | numenta_artificialNoAnomaly | `data(numenta_artificialNoAnomaly)` |
 | numenta_artificialWithAnomaly | `data(numenta_artificialWithAnomaly)` |
 | numenta_realAdExchange | `data(numenta_realAdExchange)` |
