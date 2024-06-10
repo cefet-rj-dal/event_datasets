@@ -6,17 +6,14 @@ library(dalevents)
 
 # Usage examples ----------------------------------------------------------
 #Load a series
-data(yahoo_a1)
-series <- yahoo_a1$real_1
+data(eia_oil_prices)
+series <- eia_oil_prices$Crude_Oil$EER_EPMRU_PF4_Y35NY_DPG
 
 #Use the loaded series
 summary(series)
-plot(series$series, type = "l")
+plot(series, type = "l")
 
 #Get information about a series
-?yahoo_a1
-
-#Another examples
 data(oil_3w_Type_1)
 ?oil_3w_Type_1
 
